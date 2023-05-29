@@ -1,9 +1,10 @@
 #include <iostream>
 using namespace std;
 
-class Abstraksiklas {
-private: string x, y;
-public:
+class AbstraksiKlas {
+    private: string x, y;
+
+    public:
     //method untuk mengisi nilai
     //private member
     void setXY(string a, string b) {
@@ -19,7 +20,12 @@ public:
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    AbstraksiKlas ak;
+        ak;
+    ak.setXY("Yogyakarta", "Kampus");
+    ak.display();
+
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
