@@ -1,9 +1,24 @@
 #include <iostream>
 using namespace std;
 
+class baseClass final {
+    public:
+        virtual void perkenalan() {
+            cout << "Hallo saya Function dari base class";
+        }
+};
+
+class derivedClass :public baseClass {
+    public:
+        void perkenalan() {
+            cout << "Hallo saya Function dari derived Class";
+        }
+};
+
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
