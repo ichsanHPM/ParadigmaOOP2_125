@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "solveMultiwaris.cpp", "solv
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "solveMultiwaris", "solveMultiwaris\solveMultiwaris.vcxproj", "{3A9AB9DF-E34B-4FDC-8452-2463806BC883}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Polimorpi", "Polimorpi\Polimorpi.vcxproj", "{5A1E1356-970C-4277-8897-F79EBE0282A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{3A9AB9DF-E34B-4FDC-8452-2463806BC883}.Release|x64.Build.0 = Release|x64
 		{3A9AB9DF-E34B-4FDC-8452-2463806BC883}.Release|x86.ActiveCfg = Release|Win32
 		{3A9AB9DF-E34B-4FDC-8452-2463806BC883}.Release|x86.Build.0 = Release|Win32
+		{5A1E1356-970C-4277-8897-F79EBE0282A3}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{5A1E1356-970C-4277-8897-F79EBE0282A3}.Debug|Any CPU.Build.0 = Debug|x64
+		{5A1E1356-970C-4277-8897-F79EBE0282A3}.Debug|x64.ActiveCfg = Debug|x64
+		{5A1E1356-970C-4277-8897-F79EBE0282A3}.Debug|x64.Build.0 = Debug|x64
+		{5A1E1356-970C-4277-8897-F79EBE0282A3}.Debug|x86.ActiveCfg = Debug|Win32
+		{5A1E1356-970C-4277-8897-F79EBE0282A3}.Debug|x86.Build.0 = Debug|Win32
+		{5A1E1356-970C-4277-8897-F79EBE0282A3}.Release|Any CPU.ActiveCfg = Release|x64
+		{5A1E1356-970C-4277-8897-F79EBE0282A3}.Release|Any CPU.Build.0 = Release|x64
+		{5A1E1356-970C-4277-8897-F79EBE0282A3}.Release|x64.ActiveCfg = Release|x64
+		{5A1E1356-970C-4277-8897-F79EBE0282A3}.Release|x64.Build.0 = Release|x64
+		{5A1E1356-970C-4277-8897-F79EBE0282A3}.Release|x86.ActiveCfg = Release|Win32
+		{5A1E1356-970C-4277-8897-F79EBE0282A3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
