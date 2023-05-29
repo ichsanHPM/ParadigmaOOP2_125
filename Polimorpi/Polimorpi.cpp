@@ -7,12 +7,36 @@ public:
     //virtual void pesan(){
     //      cout<<"Pesan dari seseorang"<<endl;
     //}
+};
 
+class joko :public seseorang {
+    public:
+        void pesan() {
+            cout << "Pesan dari joko" << endl;
+        }
+};
+
+class lia :public seseorang {
+    public:
+        void pesan() {
+            cout << "Pesan dari lia" << endl;
+        }
 };
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    seseorang* obyek;
+    joko a;
+    lia b;
+
+    obyek = &a;
+    obyek->pesan();
+    obyek = &b;
+    obyek->pesan();
+    //a.seseorang::pesan();
+
+    return 0;
+    
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
