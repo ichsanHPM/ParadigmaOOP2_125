@@ -1,27 +1,9 @@
 #include <iostream>
 using namespace std;
 
-class baseClass {
-    public:
-        virtual void perkenalan()  {
-            cout << "Hallo saya Function dari base class";
-        }
-};
-
-class derivedClass : public baseClass {
-    public:
-        void perkenalan() {
-            cout << "Hallo saya function dari derived class";
-        }
-
-};
-
 int main()
 {
-    derivedClass a;
-    a.perkenalan();
-
-    return 0;
+    std::cout << "Hello World!\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
